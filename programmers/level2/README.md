@@ -22,7 +22,7 @@
 
 ## 연습문제
 
--  [[코드]( [https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/124%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%88%AB%EC%9E%90.py](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/124 나라의 숫자.py) ) / [해설](https://eda-ai-lab.tistory.com/452?category=766271)] 124 나라의 숫자
+-  [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/124%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%88%AB%EC%9E%90.py](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/124 나라의 숫자.py)) / [해설](https://eda-ai-lab.tistory.com/452?category=766271)] 124 나라의 숫자
 - 가장 큰 정사각형 찾기
 - 올바른 괄호
 - 다음 큰 숫자
