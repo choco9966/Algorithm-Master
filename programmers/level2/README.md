@@ -77,7 +77,7 @@
 ## 2019 카카오 블라인드 채용
 
 -  [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9.py) / [해설](https://eda-ai-lab.tistory.com/504)] 오픈채팅방
-- 후보키
+- [코드 / 해설] 후보키
 -  [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/%EC%BA%90%EC%8B%9C.py) / [해설](https://eda-ai-lab.tistory.com/503)] [1차] 캐시
 
 ## 2020 카카오 블라인드 채용 
@@ -100,5 +100,5 @@
 ## 2017 팁스타운
 
 - [코드 / 해설] 짝지어 제거하기
-- [코드 / 해설] 예상 대진표
+- [[코드]( [https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/%EC%98%88%EC%83%81%20%EB%8C%80%EC%A7%84%ED%91%9C.py](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/예상 대진표.py) ) / [해설]( https://eda-ai-lab.tistory.com/500 )] 예상 대진표
 
