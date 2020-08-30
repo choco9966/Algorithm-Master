@@ -95,7 +95,7 @@
 
 ## 2020 카카오 인턴십
 
-- [코드 / 해설] 수식 최대화
+- [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EC%88%98%EC%8B%9D%20%EC%B5%9C%EB%8C%80%ED%99%94.py) / [해설]( https://eda-ai-lab.tistory.com/509 )] 수식 최대화
 
 ## 2017 팁스타운
 
