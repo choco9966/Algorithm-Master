@@ -23,10 +23,10 @@
 ## 연습문제
 
 -  [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/124%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%88%AB%EC%9E%90.py) / [해설](https://eda-ai-lab.tistory.com/452?category=766271)] 124 나라의 숫자
-- [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B0%BE%EA%B8%B0.py) / [해설]( https://eda-ai-lab.tistory.com/480?category=766271 )] 가장 큰 정사각형 찾기
+- [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EB%95%85%EB%94%B0%EB%A8%B9%EA%B8%B0.py) / [해설]( https://eda-ai-lab.tistory.com/480?category=766271 )] 땅따먹기
 - [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EC%98%AC%EB%B0%94%EB%A5%B8%20%EA%B4%84%ED%98%B8.py) / [해설]( https://eda-ai-lab.tistory.com/478?category=766271 )] 올바른 괄호
 - [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EB%8B%A4%EC%9D%8C%20%ED%81%B0%20%EC%88%AB%EC%9E%90.py) / [해설]( https://eda-ai-lab.tistory.com/479?category=766271 )] 다음 큰 숫자
-- [코드 / 해설] 땅따먹기
+- [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B0%BE%EA%B8%B0.py) / [해설]( https://eda-ai-lab.tistory.com/507 )] 가장 큰 정사각형 찾기
 - [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EC%88%AB%EC%9E%90%EC%9D%98%20%ED%91%9C%ED%98%84.py) / [해설]( https://eda-ai-lab.tistory.com/485?category=766271 )] 숫자의 표현
 - [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EC%B5%9C%EB%8C%93%EA%B0%92%EA%B3%BC%20%EC%B5%9C%EC%86%9F%EA%B0%92.py) / [해설]( https://eda-ai-lab.tistory.com/486?category=766271 )] 최댓값과 최솟값
 - [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EC%B5%9C%EC%86%9F%EA%B0%92%20%EB%A7%8C%EB%93%A4%EA%B8%B0.py) / [해설]( https://eda-ai-lab.tistory.com/487?category=766271 )] 최솟값 만들기
@@ -42,7 +42,7 @@
 ## 탐욕법(Greedy)
 
 - [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1.py) / [해설]( https://eda-ai-lab.tistory.com/464?category=766271 )] 조이스틱
-- [코드 / 해설] 큰 수 만들기
+- [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%ED%81%B0%20%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0.py) / [해설]( https://eda-ai-lab.tistory.com/465 )] 큰 수 만들기
 - [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%EA%B5%AC%EB%AA%85%EB%B3%B4%ED%8A%B8.py) / [해설]( https://eda-ai-lab.tistory.com/474?category=766271 )] 구명보트
 
 ## 완전 탐색
@@ -87,7 +87,7 @@
 
 ## 2019 카카오 개발자 겨울 인턴십
 
-- [코드 / 해설] 튜플
+- [[코드](https://github.com/Kaist-Master/Algorithm-Master/blob/master/programmers/level2/code/%ED%8A%9C%ED%94%8C.py) / [해설]( https://eda-ai-lab.tistory.com/508 )] 튜플
 
 ## 찾아라 프로그래밍 마에스터
 
