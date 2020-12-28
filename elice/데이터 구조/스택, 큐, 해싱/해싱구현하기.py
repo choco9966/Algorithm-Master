@@ -13,42 +13,35 @@ class myDatabase:
 
     def put(self, key, value) :
         '''
-        (key, value)를 저장합니다.
+        key에 해당하는 값 value 즉, (key, value)를 저장합니다.
         '''
-
         index = self.hashFunction(key)
-        
-        for i in range(len(self.myData)) :
-            if self.myData[index][0] == -1 :
+        for i in range(len(self.myData)): 
+            if self.myData[index][0] == -1: # key가 없는 경우 
                 self.myData[index] = (key, value)
                 return
-            
-            index = (index + 1) % len(self.myData)
-        
-        pass
-
+            else:
+                index = (index + 1) % len(self.myData)
+                
     def get(self, key) :
         '''
         key에 해당하는 value를 반환합니다. 만약 key에 해당하는 value가 없다면 -1을 반환합니다.
         '''
         index = self.hashFunction(key)
-        
-        for i in range(len(self.myData)) :
-            if self.myData[index][0] == key :
+        for i in range(len(self.myData)):
+            if self.myData[index][0] == key: 
                 return self.myData[index][1]
-            
-            if self.myData[index][0] == -1 :
-                return -1
+                
+            #if self.myData[index][0] == -1 :
+            #    return -1
                 
             index = (index + 1) % len(self.myData)
+        return -1 
         
-        return -1
-
     def hashFunction(self, key) :
         '''
         key에 해당하는 hash 값을 반환합니다.
         '''
-        
         return key % len(self.myData)
 
 def main():
@@ -57,7 +50,7 @@ def main():
     '''
     테스트를 하고싶으면, 아래 부분을 수정합니다.
     '''
-
+    
     db.put(1, 3)
     db.put(2, 7)
     db.put(3, 8)
