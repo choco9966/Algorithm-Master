@@ -10,27 +10,21 @@ class myDatabase:
         이곳은 수정하지 마세요.
         '''
         self.myData = {}
-        
+
     def put(self, key, value) :
         '''
-        (key, value)를 저장합니다.
+        key에 해당하는 값 value 즉, (key, value)를 저장합니다.
         '''
-        
-        self.myData[key] = value
-        
-        pass
+        self.myData[key] = value 
 
     def get(self, key) :
         '''
         key에 해당하는 value를 반환합니다. 만약 key에 해당하는 value가 없다면 -1을 반환합니다.
         '''
-
-        if key in self.myData :
-            return self.myData[key]
-        else :
+        try:
+            return self.myData[key] 
+        except:
             return -1
-            
-        pass
 
 def main():
     db = myDatabase(100)
