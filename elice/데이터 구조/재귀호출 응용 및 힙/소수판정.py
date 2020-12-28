@@ -12,10 +12,9 @@ def isPrime(n):
     '''
     숫자 n이 소수이면 True, 아니면 False를 반환하는 함수
     '''
-    for i in range(2,int(math.sqrt(n)+1)) :
-        if n%i == 0 :
-            return False
-
+    # 2부터 sqrt 까지 나눠서 나누어 떨어지면 소수가 아님 
+    for i in range(2, int(math.sqrt(n) + 1)): 
+        if n % i == 0: return False 
     return True
 
 def main():
