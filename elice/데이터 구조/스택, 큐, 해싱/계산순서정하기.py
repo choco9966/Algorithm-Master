@@ -5,18 +5,16 @@ def findOrder(p) :
     예를 들어, p='(()())' 일 경우, [3, 1, 1, 2, 2, 3] 을 반환합니다.
     '''
 
-    result = [0] * len(p)
-    stack = []
+    result = [0 for c in range(len(p))]
+    myStack = []
     cnt = 1
-    
-    for i in range(len(p)) :
-        if p[i] == '(' :
-            stack.append(i)
-        else :
-            result[i] = cnt
-            result[stack.pop()] = cnt
+    for idx, i in enumerate(p): 
+        if i == '(': 
+            myStack.append(idx)
+        else:
+            idx_ = myStack.pop()
+            result[idx] = result[idx_] = cnt 
             cnt += 1
-
     return result
 
 def main():
@@ -29,4 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
