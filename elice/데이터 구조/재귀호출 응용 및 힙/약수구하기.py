@@ -1,21 +1,18 @@
-import math
-
+import math 
 def getDivisor(n):
     '''
     숫자 n이 주어지면 n의 약수를 모두 구하는 함수
         
     만약 n = 12이면, result = [1, 2, 3, 4, 6, 12]를 반환한다.
     '''
+    sol = []
     result = []
+    for i in range(1, int(math.sqrt(n)) + 1): 
+        if n % i == 0: 
+            result.append(i)
     
-    for x in range(1,int(math.sqrt(n))+1) :
-        if n % x == 0 :
-            result.append(x)
-    temp = [n//x for x in result if not n//x in result]
-    temp.reverse()
-    result = result + temp
-
-    return result
+    temp = sorted([n//x for x in result if not n//x in result])
+    return result + temp
 
 def main():
     '''
