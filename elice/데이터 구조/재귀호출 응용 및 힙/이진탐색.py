@@ -3,6 +3,7 @@
 def binarySearch(array, value):
     '''
     array에 value가 존재하면 True를, 존재하지 않으면 False를 반환합니다.
+    참고로, 해당 코드는 입력값이 오름차순으로 정렬되었다는것을 가정으로 하고 실행되어지는 코드임
     '''
     m = len(array)//2
     if len(array) == 1 :
