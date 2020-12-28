@@ -1,3 +1,5 @@
+'''
+# 강사님 코드 
 def binarySearch(array, value):
     '''
     array에 value가 존재하면 True를, 존재하지 않으면 False를 반환합니다.
@@ -14,6 +16,26 @@ def binarySearch(array, value):
         return binarySearch(array[m:],value)
     if array[m] > value :
         return binarySearch(array[:m],value)
+'''
+def binarySearch(array, value):
+    '''
+    array에 value가 존재하면 True를, 존재하지 않으면 False를 반환합니다.
+    '''
+    
+    if len(array) != 0:  
+        left_array = array[0:len(array)//2]
+        center = array[len(array)//2]
+        right_array = array[len(array)//2+1:]
+        if center == value: 
+            return True 
+        else: 
+            flag = False 
+            flag = binarySearch(left_array, value)
+            if flag == False:
+                flag = binarySearch(right_array, value)
+            return flag  
+    else:
+        return False 
 
 
 def main():
