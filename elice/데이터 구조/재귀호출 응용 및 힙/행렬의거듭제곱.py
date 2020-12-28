@@ -2,15 +2,16 @@ import sys
 sys.setrecursionlimit(1000001)
 
 LIMIT_NUMBER = 1000000007
-def matrix_multifly(a, b) :
-    n = len(a)
-    result = [[0 for i in range(n)] for i in range(n)]
-    for i in range(n) :
-        for j in range(n) :
-            for k in range(n) :
-                result[i][j] += a[i][k] * b[k][j]
-            result[i][j] %= LIMIT_NUMBER
-    return result
+
+def matrix_multifly(mat1, mat2): 
+    result = []
+    for row in mat1:
+        result1 = []
+        for col in list(map(list, zip(*mat2))):
+            result1 += [sum([a * b for a, b in zip(row, col)]) % LIMIT_NUMBER]
+        result += [result1]
+    return result 
+    
 def squaring_mat(mat, m):
     '''
     행렬 mat의 m제곱을 반환하는 함수를 작성합니다.
@@ -19,11 +20,11 @@ def squaring_mat(mat, m):
     if m == 1 :
         return mat
     temp = squaring_mat(mat,m//2)
+    
     if m % 2 :
         return matrix_multifly(matrix_multifly(temp, temp),mat)
     else :
         return matrix_multifly(temp, temp)
-
 
 def get_input():
     '''
