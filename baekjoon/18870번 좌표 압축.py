@@ -12,6 +12,13 @@ for i, j in enumerate(arr):
 for xi in x:
     print(idx2num[xi], end=' ')
 
+from collections import Counter
+N = int(input())
+array_ = list(map(int, input().split()))
+dict_ = dict([(k, i) for i, k in enumerate(sorted(Counter(array_)))])
+result = [dict_[c] for c in array_]
+print(*result)
+    
 # 시간 초과된 코드 
 N = int(input())
 arr = list(map(int, input().split()))
