@@ -1,8 +1,9 @@
+# 참고자료 : https://jamanbbo.tistory.com/53
 mess = str(input())
 result = ''
 stack = []
 for m in mess: 
-    if m.isalpha() or m.isdecimal(): # m의 알파벳인지 여부 확인 
+    if m.isalpha() or m.isdecimal(): # m의 알파벳인지, 숫자인지 여부 확인 
         result += m # 알파벳(숫자)는 바로 출력 
     else: 
         if m == '(': 
